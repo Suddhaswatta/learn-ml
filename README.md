@@ -14,5 +14,5 @@
 
 ```mermaid
 flowchart LR
-    id1[(Database)] --> Stop
+    A[(DataSet)] --> B(((Featurization))) --> C(((Model Training))) --> D{Model Testing} --> Retrain --> C
 ```
