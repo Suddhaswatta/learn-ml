@@ -13,9 +13,13 @@
 
 
 ```mermaid
-flowchart TD
+flowchart TR
     A[Dataset] --> B[Model Training]
-    B --> C[Featurization]  C --> D[Model Training]  D --> E[Model Testing]   E --> D   E --> F[Predicted Output]
+    B --> C[Featurization]  
+    C --> D[Model Training] 
+    D --> E[Model Testing]  
+    E --> D   
+    E --> F[Predicted Output]
    
   
 ```
