@@ -30,7 +30,7 @@ flowchart LR
 
 ### Definition 
 
-*Algorithm is trained on instances that has been labeled for a particular output.*
+*Algorithm is trained on instances that has been labeled for a particular output so that it can detect the underlying patterns and relationships between the input data and the output labels.When tested on never-before-seen data it should be able to reproduce the same results.*
 
 ## Points to Remember
 - Label is an outcome all instances should have a label
