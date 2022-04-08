@@ -13,7 +13,11 @@
 
 
 ```mermaid
-A[Start] --> B[Featurization]
-B ---> C
+flowchart TD
+    A[Dataset] --> B[Model Training]
+    B --> C[Featurization]
+    C --> D{Model Testing}
+    D --> C
+   
   
 ```
