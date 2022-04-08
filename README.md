@@ -19,7 +19,7 @@ flowchart LR
     C --> D((Model Training))
     D --> E{Model Testing}
     E --> |Retrain| C
-    E --> |Predict| F(Best Model)
+    E --> |Predict| F((Optimized Model))
    
   
 ```
