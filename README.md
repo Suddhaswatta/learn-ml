@@ -14,7 +14,7 @@
 
 ```mermaid
 flowchart LR
-    A[Dataset] --> B(Model Training)
+    A[Dataset] --> B((Model Training))
     B --> C(Featurization)
     C --> D(Model Training)
     D --> E{Model Testing}
