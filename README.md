@@ -16,7 +16,7 @@
 flowchart LR
     A[(Dataset)] --> B((Model Training))
     B --> C[Featurization]
-    C --> D(((Model Training)))
+    C --> D((Model Training))
     D --> E{Model Testing}
     E --> |Retrain| C
     E --> |Predict| F(Best Model)
