@@ -1,4 +1,4 @@
-# Brushing up ML concepts
+# ML concepts
 
 ## What is Machine Learning ?
 
