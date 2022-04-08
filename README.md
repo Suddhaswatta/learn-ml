@@ -2,4 +2,7 @@
 
 ## What is Machine Learning ?
 
-- It is subset of AI and DL is Subset of ML .
+### Definition 
+
+*It is an ability of computer to learn Logic with explicitly bring programmed*
+
