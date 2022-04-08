@@ -11,7 +11,7 @@
 - Labels : Target y value trying to predict
 - Instance : One sample or row in a dataset
 
-
+## Flow
 ```mermaid
 flowchart LR
     A[(Dataset)] --> B((Model Training))
@@ -23,3 +23,5 @@ flowchart LR
    
   
 ```
+
+
