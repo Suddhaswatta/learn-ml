@@ -18,8 +18,8 @@ flowchart TD
     B --> C[Featurization]
     C --> D[Model Training]
     D --> E[Model Testing]
-    E --> C
-    E --> End
+    E --> D
+    E --> F[Predicted Output]
    
   
 ```
