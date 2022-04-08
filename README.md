@@ -11,17 +11,43 @@
 - Labels : Target y value trying to predict
 - Instance : One sample or row in a dataset
 
-## Flow
+## Flow Chart
 ```mermaid
 flowchart LR
     A[(Dataset)] --> B((Model Training))
     B --> C[Featurization]
     C --> D((Model Training))
     D --> E{Model Testing}
-    E --> |Retrain| C
+    E --> |Optimize Model| D
     E --> |Predict| F((Optimized Model))
    
   
 ```
 
+# Supervised Learning
 
+## What is Supervised Learning ?
+
+### Definition 
+
+*Algorithm is trained on instances that has been labeled for a particular output.*
+
+## Points to Remember
+- Label is an outcome all instances should have a label
+- Goal is predict outcomes on unseen dataset
+- If the label is categorical then it is a **Classification Problem**
+- If the label is numerical it is a **Regression Problem.**
+
+## Flow Chart
+```mermaid
+flowchart LR
+    A[(Dataset)] --> B((Model Training))
+    A --> |Training Set 80%| D((Model Training))
+    A --> |Test Set 20%| E{Model Testing}
+    B --> C[Featurization]
+    C --> D
+    D --> E
+    E --> |Minimize Loss Function| D
+    E --> |Predict| F((Optimized Model))
+  
+```
