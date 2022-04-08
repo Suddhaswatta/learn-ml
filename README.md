@@ -13,7 +13,7 @@
 
 
 ```mermaid
-flowchart TR
+flowchart LR
     A[Dataset] --> B[Model Training]
     B --> C[Featurization]  
     C --> D[Model Training] 
