@@ -13,6 +13,7 @@
 
 
 ```mermaid
-flowchart LR
-    A[(DataSet)] --> B(((Featurization))) --> C(((Model Training))) --> D{Model Testing} --> Retrain --> C
+A[Start] --> B[Featurization]
+B ---> C
+  
 ```
