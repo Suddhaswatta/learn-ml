@@ -19,7 +19,7 @@ flowchart LR
     C --> D[Model Training] 
     D --> E{Model Testing}
     E --> |Retrain| C
-    E --> |Predicted Outcome| [Predicted Output]
+    E --> |Predict| F[Predicted Output]
    
   
 ```
