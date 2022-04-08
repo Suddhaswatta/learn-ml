@@ -8,6 +8,6 @@
 
 ## Terminology 
 - Features : Represented by x in dataset or a piece of data 
-- Labels : Target value value trying to predict
+- Labels : Target y value trying to predict
 - Instance : One sample or row in a dataset
 
