@@ -17,9 +17,9 @@ flowchart LR
     A[Dataset] --> B[Model Training]
     B --> C[Featurization]  
     C --> D[Model Training] 
-    D --> E[Model Testing]  
-    E --> D   
-    E --> F[Predicted Output]
+    D --> E{Model Testing}
+    E --> |Retrain| C
+    E --> |Predicted Outcome| [Predicted Output]
    
   
 ```
